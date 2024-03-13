@@ -1,0 +1,103 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+body
+{
+    background-image: url(./speed\ up\ 2.jpeg);
+    font-family: 'Arial';
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    margin-top: 150px;
+    text-align: center;
+    color: #6eada18c;
+}
+.login{
+        width: 400px;
+        /* overflow: hidden; */
+        margin: auto;
+        margin-top: -50px;
+        margin-right: 428px;
+        padding: 80px;
+        backface-visibility: visible;
+        border-radius: 15px ;
+        font-size: 30px;
+       
+}
+label{
+    color: #424635;
+    font-size: 17px;
+}
+#Uname{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#NICK{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+#start{
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    margin-left: 120px;
+    font-style: italic;
+    color: rgb(122, 154, 181);
+    text-decoration-line: none;
+    font-size: 30px;
+}
+#start:hover{
+    color: #000b0a;
+    text-decoration-line: none;
+    font-style: italic;
+    box-sizing: border-box;
+    background-color:#8aa7a3;
+    padding: 10px;
+
+}
+span{
+    color: white;
+    font-size: 10px;
+    margin-top: auto;
+}
+@media only screen and (max-width: 800px) {
+    body {
+        position: relative;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    
+    }
+    .login {
+        width: 50%; /* Adjust width for smaller screens */
+        margin-right: auto; /* Remove right margin */
+        margin-left: auto; /* Center align */
+        padding: 40px; /* Reduce padding */
+    }
+
+    #Uname, #NICK, #start {
+        width: 100%; /* Make input fields and button full width */
+        margin-left: 0; /* Remove left margin */
+    }
+
+    #start {
+        margin-top: 20px; /* Add margin at the top */
+        text-align: center; /* Center align button */
+    }
+}

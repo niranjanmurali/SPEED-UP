@@ -1,0 +1,87 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url(./speed\ up\ 2.jpeg);
+    font-family: 'Arial';
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+color: rgba(240, 248, 255, 0.479);
+}
+
+.inst{
+    font-size: larger;
+}
+/* Audiotoggle button. */
+#audioToggle{
+    padding: auto;
+    position: relative;
+    top: -950px;
+    right: -1350px; 
+    font-family: New Rocker;
+    background-color: rgba(251, 255, 0, 0.84);
+    text-align: left;
+}
+.head{
+    color: rgba(255, 150, 13, 0.651);
+}
+footer{
+    text-decoration: none;
+    border-radius:17px ;
+    margin-right: 20px;
+    height: 30px;
+    /* background-color: wheat; */
+    padding:auto;
+}
+h3{
+    font-style: italic;
+    color: rgba(94, 44, 211, 0.697);
+    text-align: right;
+    }
+a{
+    text-decoration: none;
+
+}
+
+h3:hover{
+    margin: 0%;
+    color: #ff0000;
+    text-decoration-line: none;
+    font-style: italic;
+    box-sizing: border-box;
+    height: 30px;
+    width: auto;
+    border-radius: 17px;
+    padding: auto;
+}
+
+/* Responsive design for mobile version */
+@media only screen and (max-width: 760px) {
+    body {
+        position: relative;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        z-index: -1;
+        overflow-y: scroll;
+    
+    }
+
+ /* skip    */
+footer{
+    margin-right: auto;
+}
+
+ /* Audiotoggle button  for smaller screens */
+ #audioToggle{
+    top: -1050px;
+    left: 440px;
+  }
+}  

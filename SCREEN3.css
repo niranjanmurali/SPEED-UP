@@ -502,22 +502,26 @@ footer {
 /* Add mobile responsiveness */
 @media only screen and (max-width: 800px) {
     body {
+        
         justify-content: flex-start;
         flex-direction: column;
         align-items: center;
     }
-
-    #left {
-        margin-top: 20px;
-        margin-right: 0;
+    #wordlist{
+        left: -50px;
+    }
+    #timeLefft{
+        left: auto;
     }
 
     #center {
         margin-top: 20px;
+        
     }
 
     #stats {
-        margin-top: 20px;
+        margin-top:-150px;
+             
     }
 
     #audioToggle {
@@ -526,6 +530,8 @@ footer {
 
     /* Adjust circular container size */
     #circular {
+        top: -270px;
+        left: 4px;
         height: 200px; /* Reduced height for circular container */
         width: 200px;  /* Reduced width for circular container */
     }
@@ -537,6 +543,7 @@ footer {
 
     /* Adjust input field width */
     #input {
+        margin-top: -210px;
         width: 250px; /* Reduced width for input field */
     }
 
@@ -548,6 +555,7 @@ footer {
 
     #score,
     #highscore {
+
         font-size: 24pt; /* Reduced font size for score and high score */
     }
 
@@ -556,11 +564,12 @@ footer {
     }
 
     #word {
+        /* top: -20px; */
         font-size: 16pt; /* Reduced font size for word */
     }
 
     #message {
-        top: 400px;
+        top: 150px;
         font-size: 10pt; /* Reduced font size for message */
     }
 
